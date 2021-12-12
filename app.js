@@ -15,6 +15,8 @@ const oauth2Client  = new google.auth.OAuth2(
     REDIRECT_URI
 );
 
+//MOSTRAR IMAGENES https://drive.google.com/uc?export=view&id=
+
 oauth2Client.setCredentials({refresh_token: REFRESH_TOKEN});
 
 const drive = google.drive({
