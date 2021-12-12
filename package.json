@@ -1,0 +1,14 @@
+{
+  "name": "driveapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "roby-dev",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^92.0.0"
+  }
+}
